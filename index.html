@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tlers</title>
+  <link rel="icon" href="image/favico.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="parallax-header">
+    <div class="intro">
+      <h1>Break Language Barriers with Tlers</h1>
+      <p>Unleash clear communication across languages with Tlers!
+      Tlers combines advanced translation technology with built-in proofreading. It delivers natural-sounding translations that capture the original meaning, while simultaneously correcting grammar, spelling, and style.
+          Simply paste your text, choose the target language, and let Tlers handle the rest. </p>
+    </div>
+    <img src="image/logo.png" alt="Tlers" class="logo">
+    <div class="overlay"></div>
+  </header>
+
+  <main>
+    <section class="translation-form">
+      <h2>Enter Text to Translate:</h2>
+      <div class="input-section">
+        <textarea id="text-input" rows="5" placeholder="Enter text here..."></textarea>
+        <div class="language-selection">
+          <label for="source-language">From:</label>
+          <select id="source-language">
+            <option value="en">English</option>
+            <option value="fr">French</option>
+            <option value="es">Spanish</option>
+          </select>
+        </div>
+        <br>
+        <div class="language-selection">
+          <label for="target-language">To:</label>
+          <select id="target-language">
+            <option value="en">English</option>
+            <option value="fr">French</option>
+            <option value="es">Spanish</option>
+          </select>
+        </div>
+      </div>
+      <button id="translate-button" type="submit">Translate Now</button>
+    </section>
+
+    <section class="translation-result">
+      <h2>Translated Text:</h2>
+      <div id="translated-text"></div>
+      <p id="error-message"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
