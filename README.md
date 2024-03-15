@@ -105,5 +105,5 @@ Tlers represents the future of language translation. Start your journey to effor
 
 ### Interface
 
-![Tlers input](/image/interface.png)
+![Tlers input](/image/Website.png)
 ![Tlers Interface](/image/input.png)
